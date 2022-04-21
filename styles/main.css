@@ -1,13 +1,18 @@
+/* This applie to the body */
+
 body {
     background-color: rgba(227, 246, 255, 0.871);
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
     margin-bottom: 50px;
     font-size: 18px;
 }
+
+
+/* H Specific rules */
 
 h1 {
     font-family: Lobster;
@@ -22,12 +27,26 @@ h4 {
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 60px;
 }
 
 h4 {
-    font-size: 40px;
+    font-size: 30px;
 }
+
+
+/* Heading Rules */
+
+.blog-heading {
+    font-size: 50px;
+}
+
+.topic-heading {
+    font-size: 35px;
+}
+
+
+/* Text Alignment */
 
 .text-align-left {
     text-align: left;
@@ -38,8 +57,11 @@ h4 {
 }
 
 .smaller-image {
-    width: 300px;
+    width: 400px;
 }
+
+
+/* Image rules */
 
 .thin-black-border {
     border-color: rgb(255, 255, 255);
@@ -54,15 +76,23 @@ h4 {
     margin-right: auto;
 }
 
-.blog-heading {
-    font-size: 50px;
-}
 
-.topic-heading {
-    font-size: 35px;
-}
+/* div rules */
 
 div {
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.container {
+    width: 700px;
+}
+
+.container-image {
+    display: flex;
+    background-color: rgb(159, 231, 255);
+}
+
+a {
+    text-decoration: none;
 }
