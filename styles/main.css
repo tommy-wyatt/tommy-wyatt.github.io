@@ -60,6 +60,15 @@ h4 {
     width: 400px;
 }
 
+.blog-image {
+    height: 200px;
+}
+
+img {
+    max-height: auto;
+    width: auto;
+}
+
 
 /* Image rules */
 
@@ -86,6 +95,12 @@ div {
 
 .container {
     width: 700px;
+}
+
+.text-container {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .container-image {
