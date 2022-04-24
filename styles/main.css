@@ -68,7 +68,7 @@ img {
 
 .thin-black-border {
     border-color: rgb(255, 255, 255);
-    border-width: 3px;
+    border-width: 0px;
     border-style: solid;
     border-radius: 10%;
 }
