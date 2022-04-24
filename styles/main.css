@@ -111,3 +111,7 @@ div {
 a {
     text-decoration: none;
 }
+
+.color-grey {
+    color: rgb(120, 118, 118)
+}
