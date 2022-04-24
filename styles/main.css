@@ -16,6 +16,7 @@ body {
 
 h1 {
     font-family: Lobster;
+    font-size: 80px;
 }
 
 h2 {
@@ -24,13 +25,6 @@ h2 {
 
 h4 {
     font-family: Lobster;
-}
-
-h1 {
-    font-size: 60px;
-}
-
-h4 {
     font-size: 30px;
 }
 
@@ -76,7 +70,7 @@ img {
     border-color: rgb(255, 255, 255);
     border-width: 3px;
     border-style: solid;
-    border-radius: 30%;
+    border-radius: 10%;
 }
 
 .center-image {
@@ -105,7 +99,9 @@ div {
 
 .container-image {
     display: flex;
-    background-color: rgb(159, 231, 255);
+    background-color: rgb(176, 235, 255);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 a {
@@ -114,4 +110,24 @@ a {
 
 .color-grey {
     color: rgb(120, 118, 118)
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    text-align: left;
+}
+
+.float-right {
+    text-align: right;
+}
+
+.heading-right {
+    text-align: right;
 }
