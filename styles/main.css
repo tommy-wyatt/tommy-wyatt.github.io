@@ -131,3 +131,8 @@ a {
 .heading-right {
     text-align: right;
 }
+
+div.main-box {
+    background-color: rgba(25, 165, 203, 0.517);
+    width: 1000px center
+}
